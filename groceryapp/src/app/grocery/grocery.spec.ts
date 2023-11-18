@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Grocery } from './grocery';
+import { GroceryServiceService } from '../grocery-service.service';
 
 describe('Grocery', () => {
   let component: Grocery;
